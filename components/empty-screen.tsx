@@ -9,28 +9,19 @@ export function EmptyScreen() {
     <div className="mx-auto max-w-2xl px-4">
       <div className="flex flex-col gap-2 rounded-lg border bg-background p-8">
         <h1 className="text-lg font-semibold">
-          Welcome to Next.js AI Chatbot!
+          Welcome to MoneyBaller: Empirical Analysis of Undervalued Developer Talent
         </h1>
         <p className="leading-normal text-muted-foreground">
-          This is an open source AI chatbot app template built with{' '}
-          <ExternalLink href="https://nextjs.org">Next.js</ExternalLink>, the{' '}
-          <ExternalLink href="https://sdk.vercel.ai">
-            Vercel AI SDK
-          </ExternalLink>
-          , and{' '}
-          <ExternalLink href="https://vercel.com/storage/kv">
-            Vercel KV
-          </ExternalLink>
-          .
+          MoneyBaller revolutionizes tech recruitment by applying data-driven analysis to identify undervalued developer talent in the open-source community. We leverage{' '}
+          <ExternalLink href="https://fetch.ai/">Fetch AI</ExternalLink> for agentic workflows,{' '}
+          <ExternalLink href="https://github.com/">GitHub</ExternalLink> for comprehensive profiling, and{' '}
+          <ExternalLink href="https://groq.com/">Groq API</ExternalLink> with the LLaMA 3 model for fast inference and an interactive chat interface.
         </p>
         <p className="leading-normal text-muted-foreground">
-          It uses{' '}
-          <ExternalLink href="https://vercel.com/blog/ai-sdk-3-generative-ui">
-            React Server Components
-          </ExternalLink>{' '}
-          to combine text with generative UI as output of the LLM. The UI state
-          is synced through the SDK so the model is aware of your interactions
-          as they happen.
+          Our system uses advanced LLMs for deterministic code quality assessment, contributor network analysis, and empirical analysis of coding skills. With MoneyBaller, you can explore talent insights through natural language queries, powered by Groq's high-speed inference capabilities.
+        </p>
+        <p className="leading-normal text-muted-foreground">
+          Discover the future of tech recruitment with MoneyBaller - where data meets talent, and innovation meets opportunity.
         </p>
       </div>
     </div>
