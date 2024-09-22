@@ -693,6 +693,7 @@ export const getUIStateFromAIState = (aiState: Chat) => {
               </BotCard>
             ) : tool.toolName === 'getDevelopers' ? (
               <BotCard>
+                {/* @ts-expect-error */}
                 <DeveloperList developers={tool.result} />
               </BotCard>
             ) : null

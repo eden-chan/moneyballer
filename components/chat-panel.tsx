@@ -37,22 +37,22 @@ export function ChatPanel({
     {
       heading: 'Find fullstack developers',
       subheading: 'React and Python, recent open source contributions',
-      message: `Identify fullstack developers with React and Python experience who have contributed to open-source projects in the last 6 months.`
+      message: `Identify fullstack developers.`
     },
     {
       heading: 'Discover ML engineers',
       subheading: 'TensorFlow experts, active',
-      message: 'Find machine learning engineers with expertise in TensorFlow who have been actively contributing to AI/ML repositories this year.'
+      message: 'Find developers'
     },
     {
       heading: 'Waterloo Rust developers',
       subheading: 'Systems programming, co-op program',
-      message: `Find potential interns from University of Waterloo's Computer Science co-op program with experience in Rust and systems programming, particularly those with contributions to low-level libraries or operating systems projects.`
+      message: `Find potential intern developers from University of Waterloo's Computer Science co-op program with experience in Rust and systems programming, particularly those with contributions to low-level libraries or operating systems projects.`
     },
     {
       heading: 'CMU AI and Robotics talent',
       subheading: 'Recent graduates or students',
-      message: `Identify promising students or recent graduates from Carnegie Mellon University with a focus on AI and Robotics, particularly those with experience in machine learning, computer vision, or robotic systems development.`
+      message: `Identify student developers or recent graduates from Carnegie Mellon University with a focus on AI and Robotics, particularly those with experience in machine learning, computer vision, or robotic systems development.`
     }
   ]
 
