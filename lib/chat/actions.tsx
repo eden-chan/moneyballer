@@ -489,11 +489,39 @@ async function submitUserMessage(content: string) {
         generate: async function* ({ count = 5 }) {
           yield (
             <BotCard>
-              <DeveloperListSkeleton />
+              <div className="space-y-2">
+                <p>🔍 Searching for undervalued developers...</p>
+                <DeveloperListSkeleton />
+              </div>
             </BotCard>
           )
 
-          await sleep(1000)
+          await sleep(3000)
+
+          yield (
+            <BotCard>
+              <div className="space-y-2">
+                <p>🔍 Searching for undervalued developers...</p>
+                <p>📊 Evaluating open source contributions...</p>
+                <DeveloperListSkeleton />
+              </div>
+            </BotCard>
+          )
+
+          await sleep(3000)
+
+          yield (
+            <BotCard>
+              <div className="space-y-2">
+                <p>🔍 Searching for undervalued developers...</p>
+                <p>📊 Evaluating open source contributions...</p>
+                <p>🧪 Analyzing Python files for code quality...</p>
+                <DeveloperListSkeleton />
+              </div>
+            </BotCard>
+          )
+
+          await sleep(3000)
 
           const sampleDevelopers = [
             {
